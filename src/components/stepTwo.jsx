@@ -3,7 +3,7 @@ import { text } from "../globals";
 
 export function StepTwo({ rating }) {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-veryDarkBlue font-overpass">
+    <div className="flex min-h-screen items-center justify-center bg-veryDarkBlue px-5 font-overpass">
       <div className="flex max-w-sm flex-col items-center gap-8 rounded-3xl bg-darkBlue/50 p-9">
         <ThankYouIcon />
         <div className="rounded-full bg-darkBlue px-5 py-1 text-base text-orange">

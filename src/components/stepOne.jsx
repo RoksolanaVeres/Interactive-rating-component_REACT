@@ -4,7 +4,7 @@ import { text, ratings } from "../globals";
 
 export function StepOne({ currentRating, setCurrentRating, setStep }) {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-veryDarkBlue font-overpass">
+    <div className="flex min-h-screen items-center justify-center bg-veryDarkBlue px-5 font-overpass">
       <div className="flex max-w-sm flex-col gap-8 rounded-3xl bg-darkBlue/50 p-9">
         <LogoStarIcon />
         <div className="flex flex-col gap-3">
